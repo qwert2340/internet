@@ -216,8 +216,8 @@ export function Layout() {
               <div className="space-y-2">
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">My Services</h2>
                 <p className="max-w-[900px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
-                  I offer a wide range of services to help bring your game's visuals to life. From character design to
-                  UI development, I'm here to make your project a success.
+                  I offer a wide range of services to help bring your game&apos;s visuals to life. From character design to
+                  UI development, I&apos;m here to make your project a success.
                 </p>
               </div>
             </div>
@@ -227,7 +227,7 @@ export function Layout() {
                   <div>
                     <h3 className="text-xl font-bold">Character Design</h3>
                     <p className="text-gray-500 dark:text-gray-400">
-                      Bring your game's characters to life with unique and memorable designs.
+                      Bring your game&apos;s characters to life with unique and memorable designs.
                     </p>
                   </div>
                   <Button className="justify-start" variant="link">
@@ -266,7 +266,7 @@ export function Layout() {
                   <div>
                     <h3 className="text-xl font-bold">Animation</h3>
                     <p className="text-gray-500 dark:text-gray-400">
-                      Bring your game's visuals to life with fluid and dynamic animations.
+                      Bring your game&apos;s visuals to life with fluid and dynamic animations.
                     </p>
                   </div>
                   <Button className="justify-start" variant="link">
@@ -309,7 +309,7 @@ export function Layout() {
               <div className="space-y-2">
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Get in Touch</h2>
                 <p className="max-w-[900px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
-                  Have a project in mind? Let's discuss how I can help bring your game's visuals to life.
+                  Have a project in mind? Let&apos;s discuss how I can help bring your game&apos;s visuals to life.
                 </p>
               </div>
               <div className="mx-auto w-full max-w-md space-y-4">
