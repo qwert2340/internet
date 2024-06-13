@@ -89,7 +89,7 @@ export default function Home() {
         <div className="space-y-2">
           <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">about me</h2>
           <p className="text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
-            i'm a passionate designer with over 3 years of experience in the industry. i specializes in
+            i&lsquo;m a passionate designer with over 3 years of experience in the industry. i specializes in
             creating visually stunning and user-friendly digital experiences.
           </p>
         </div>
