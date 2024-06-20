@@ -51,14 +51,14 @@ export default function Home() {
     3D Grapic Designer
   </h1>
   <p className="max-w-[6000px] text-gray-300 md:text-xl dark:text-gray-400">
-  this is a portfolio of 3D game Grapic Background Designer Lee-Chan-Woo <br /> Who makes interesing background 3D Model. <br />
+  this is a portfolio of 3D game Grapic Background Designer Chan-Woo-Lee <br /> Who makes interesing background 3D Model. <br />
   </p>
 </div>
 
         </div>
         <div className="flex flex-col gap-2 min-[400px]:flex-row justify-center">
           <Link
-            className="inline-flex h-10 items-center justify-center rounded-md bg-[#6366F1] px-8 text-sm font-medium text-gray-50 shadow transition-colors hover:bg-[#4F46E5] focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-[#4F46E5] disabled:pointer-events-none disabled:opacity-50 active:bg-[#4F46E5]"
+            className="inline-flex h-10 items-center justify-center rounded-md bg-[#6366F1] px-8 text-sm font-medium text-gray-50 shadow transition-colors hover:bg-[#4F46E5] focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-[#4F46E5] disabled:pointer-events-none disabled:opacity-50 active:bg-gray-300"
             href="#"
           >
             View Projects
@@ -106,7 +106,7 @@ export default function Home() {
             </ul>
           </div>
           <div className="space-y-1">
-            <h3 className="text-lg font-bold">other tools(if you want)</h3>
+            <h3 className="text-lg font-bold">Other tools</h3>
             <ul className="space-y-1 text-sm text-gray-500 dark:text-gray-400">
               <li>aseprite</li>
               <li>photoshop</li>
@@ -134,7 +134,7 @@ export default function Home() {
       <div className="space-y-2">
         <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">Featured Projects</h2>
         <p className="max-w-[900px] mx-auto text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
-          Explore a selection of chan woo&apos;s most interesting 3D model of Background.
+          Explore a selection of  Chan-Woo-Lee&apos;s most interesting 3D model of Background.
         </p>
       </div>
     </div>
@@ -148,7 +148,7 @@ export default function Home() {
           width="550"
         />
         <CardContent className="p-4">
-          <h3 className="text-lg font-bold">Render shot 1</h3>
+          <h3 className="text-lg font-bold">Render Shot 1</h3>
           <p className="text-sm text-gray-500 dark:text-gray-400">
             
           </p>
@@ -163,7 +163,7 @@ export default function Home() {
           width="550"
         />
         <CardContent className="p-4">
-          <h3 className="text-lg font-bold">Render shot 2</h3>
+          <h3 className="text-lg font-bold">Render Shot 2</h3>
           <p className="text-sm text-gray-500 dark:text-gray-400">
             
           </p>
@@ -178,7 +178,7 @@ export default function Home() {
           width="550"
         />
         <CardContent className="p-4">
-          <h3 className="text-lg font-bold">Render shot 3</h3>
+          <h3 className="text-lg font-bold">Render Shot 3</h3>
           <p className="text-sm text-gray-500 dark:text-gray-400">
             
           </p>
