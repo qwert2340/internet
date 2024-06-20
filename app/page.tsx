@@ -51,7 +51,7 @@ export default function Home() {
     3D Grapic Designer
   </h1>
   <p className="max-w-[6000px] text-gray-300 md:text-xl dark:text-gray-400">
-  this is a portfolio of 3D game grapic background designer lee chan woo who makes interesing background 3d model.
+  this is a portfolio of 3D game Grapic Background Designer Lee-Chan-Woo <br /> Who akes interesing background 3D Model. <br />
   </p>
 </div>
 
@@ -91,8 +91,8 @@ export default function Home() {
         <div className="space-y-2">
           <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">about me</h2>
           <p className="text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
-            i&lsquo;m a 3d game grapic background designer and i makes background of game which like building and object or ETC...
-            but also i can rigging and makes 3d animation too if you want, please contact me!
+            i&lsquo;m a 3D Game Grapic Background Designer and i makes Background of Game which like building and object or ETC...
+            but also i can rigging and makes 3D animation too if you want, please Contact Me!
           </p>
         </div>
         <div className="grid grid-cols-2 gap-4">
@@ -134,7 +134,7 @@ export default function Home() {
       <div className="space-y-2">
         <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">Featured Projects</h2>
         <p className="max-w-[900px] mx-auto text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
-          Explore a selection of chan woo&apos;s most interesting 3D model of background.
+          Explore a selection of chan woo&apos;s most interesting 3D model of Background.
         </p>
       </div>
     </div>
