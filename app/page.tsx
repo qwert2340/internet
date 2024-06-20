@@ -86,7 +86,7 @@ export default function Home() {
 </section>
 <section className="w-full py-12 md:py-24 lg:py-32 bg-gray-100 dark:bg-gray-800 text-center" id="about">
   <div className="container px-4 mx-auto md:px-6"> {/* px-4를 mx-auto로 수정하여 가운데 정렬 */}
-    <div className="grid items-center justify-center gap-6 lg:grid-cols-[1fr_500px] lg:gap-12 xl:grid-cols-[1fr_550px]"> {/* justify-center 추가 */}
+    <div className="grid items-center justify-center gap-6 lg:grid-cols-[1fr_00px] lg:gap-12 xl:grid-cols-[1fr_550px]"> {/* justify-center 추가 */}
       <div className="flex flex-col justify-center space-y-4 text-center mx-auto max-w-[600px]"> {/* mx-auto와 max-w-[600px] 추가 */}
         <div className="space-y-2">
           <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">about me</h2>
@@ -98,7 +98,7 @@ export default function Home() {
         <div className="grid grid-cols-2 gap-4">
           <div className="space-y-1">
             <h3 className="text-lg font-bold">3D tools</h3>
-            <ul className="space-y-1 text-sm text-gray-500 dark:text-gray-400"> 
+            <ul className="space-y-1 text-sm text-gray-800 dark:text-gray-600"> 
               <li>3Ds Max</li>
               <li>ZBrush</li>
               <li>Sub Stance Paint</li>
@@ -119,9 +119,9 @@ export default function Home() {
       <img
         alt="About"
         className="mx-auto aspect-video overflow-hidden rounded-xl object-cover object-center sm:w-full lg:order-last"
-        height="310"
-        src="/placeholder.svg"
-        width="550"
+        height="346"
+        src="/Untitled-4.jpg"
+        width="316"
       />
     </div>
   </div>
