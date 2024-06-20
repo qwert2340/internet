@@ -48,10 +48,10 @@ export default function Home() {
         <div className="space-y-2">
         <div className="flex flex-col justify-center space-y-4 text-center">
   <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none">
-    3d grapic designer
+    3D Grapic Designer
   </h1>
   <p className="max-w-[6000px] text-gray-300 md:text-xl dark:text-gray-400">
-  this is a portfolio of 3d game grapic background designer lee chan woo who makes interesing background 3d model.
+  this is a portfolio of 3D game grapic background designer lee chan woo who makes interesing background 3d model.
   </p>
 </div>
 
