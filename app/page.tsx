@@ -51,24 +51,24 @@ export default function Home() {
     3D Grapic Designer
   </h1>
   <p className="max-w-[6000px] text-gray-300 md:text-xl dark:text-gray-400">
-  this is a portfolio of 3D game Grapic Background Designer Chan-Woo-Lee <br /> Who makes interesing background 3D Model. <br />
+  This is a Portfolio of 3D game Background Grapic Designer. <br /> "Chan Woo Lee" <br /> Who makes interesing background 3D Model. <br />
   </p>
 </div>
 
         </div>
         <div className="flex flex-col gap-2 min-[400px]:flex-row justify-center">
           <Link
-            className="inline-flex h-10 items-center justify-center rounded-md bg-[#6366F1] px-8 text-sm font-medium text-gray-50 shadow transition-colors hover:bg-[#4F46E5] focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-[#4F46E5] disabled:pointer-events-none disabled:opacity-50 active:bg-gray-300"
+            // className="inline-flex h-10 items-center justify-center rounded-md bg-[#6366F1] px-8 text-sm font-medium text-gray-50 shadow transition-colors hover:bg-[#4F46E5] focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-[#4F46E5] disabled:pointer-events-none disabled:opacity-50 active:bg-gray-300"
             href="#"
           >
-            View Projects
+            {/* View Projects */}
           </Link>
           <Link
-  className="inline-flex h-10 items-center justify-center rounded-md border border-gray-200 bg-white px-8 text-sm font-medium shadow-sm transition-colors hover:bg-gray-300 hover:text-gray-900 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50 dark:border-gray-800 dark:bg-gray-950 dark:hover:bg-gray-800 dark:hover:text-gray-200 dark:focus-visible:ring-gray-700 dark:border-gray-800 text-black
-  active:bg-gray-500"  // 클릭 시 배경색 회색으로 변경
+  // className="inline-flex h-10 items-center justify-center rounded-md border border-gray-200 bg-white px-8 text-sm font-medium shadow-sm transition-colors hover:bg-gray-300 hover:text-gray-900 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50 dark:border-gray-800 dark:bg-gray-950 dark:hover:bg-gray-800 dark:hover:text-gray-200 dark:focus-visible:ring-gray-700 dark:border-gray-800 text-black
+  // active:bg-gray-500"  // 클릭 시 배경색 회색으로 변경
   href="#"
 >
-  Contact Me
+  {/* Contact Me */}
 </Link>
         </div>
       </div>
@@ -91,8 +91,8 @@ export default function Home() {
         <div className="space-y-2">
           <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">about me</h2>
           <p className="text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
-            i&lsquo;m a 3D Game Grapic Background Designer and i makes Background of Game which like building and object or ETC...
-            but also i can rigging and makes 3D animation too if you want, please Contact Me!
+            I&lsquo;m a 3D Game Grapic Background Designer and i makes Background of Game. <br /> like building and object or ETC...
+            and also i can rigging and makes 3D animation too. <br /> if you want to work with me, Please Contact! <br />
           </p>
         </div>
         <div className="grid grid-cols-2 gap-4">
@@ -108,9 +108,9 @@ export default function Home() {
           <div className="space-y-1">
             <h3 className="text-lg font-bold">Other tools</h3>
             <ul className="space-y-1 text-sm text-gray-500 dark:text-gray-400">
-              <li>aseprite</li>
-              <li>photoshop</li>
-              <li>clipstudio</li>
+              <li>Aseprite</li>
+              <li>Photoshop</li>
+              <li>Clipstudio</li>
               <li>Unity</li>
             </ul>
           </div>
@@ -134,7 +134,7 @@ export default function Home() {
       <div className="space-y-2">
         <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">Featured Projects</h2>
         <p className="max-w-[900px] mx-auto text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
-          Explore a selection of  Chan-Woo-Lee&apos;s most interesting 3D model of Background.
+          Explore a selection of  Chan Woo Lee&apos;s most interesting 3D model of Background.
         </p>
       </div>
     </div>
@@ -188,7 +188,7 @@ export default function Home() {
   </div>
 </section>
 
-<section className="w-full py-12 md:py-24 lg:py-32 bg-gray-100 dark:bg-gray-800 flex items-center justify-center" id="contact">
+{/* <section className="w-full py-12 md:py-24 lg:py-32 bg-gray-100 dark:bg-gray-800 flex items-center justify-center" id="contact">
   <div className="container px-4 md:px-6">
     <div className="grid gap-4 text-center">
       <div className="space-y-3">
@@ -209,10 +209,10 @@ export default function Home() {
       </div>
     </div>
   </div>
-</section>
+</section> */}
 
     <footer className="flex flex-col gap-2 sm:flex-row py-6 w-full shrink-0 items-center px-4 md:px-6 border-t bg-gray-900 text-white">
-      <p className="text-xs">© 2024 Jane Doe. All rights reserved.</p>
+      <p className="text-xs">© 2024 Chan Woo Lee. All rights reserved.</p>
       <nav className="sm:ml-auto flex gap-4 sm:gap-6">
         <Link className="text-xs hover:underline underline-offset-4" href="#">
           Privacy
