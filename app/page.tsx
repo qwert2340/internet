@@ -22,23 +22,24 @@ To read more about using these font, please visit the Next.js documentation:
 export default function Home() {
   return (
     <div className="flex flex-col min-h-[100dvh]">
-    <header className="px-4 lg:px-6 h-14 flex items-center bg-gray-900 text-white">
-      <Link className="flex items-center justify-center" href="#">
-        <PaletteIcon className="h-6 w-6" />
-        <span className="sr-only">chan woo&apos;s Portfolio</span>
-      </Link>
-      <nav className="ml-auto flex gap-4 sm:gap-6">
-        <Link className="text-sm font-medium hover:underline underline-offset-4" href="#">
-          About
-        </Link>
-        <Link className="text-sm font-medium hover:underline underline-offset-4" href="#">
-          Projects
-        </Link>
-        <Link className="text-sm font-medium hover:underline underline-offset-4" href="#">
-          Contact
-        </Link>
-      </nav>
-    </header>
+    <header className="sticky top-0 px-4 lg:px-6 h-14 flex items-center bg-gray-950 text-white">
+  <Link className="flex items-center justify-center" href="#">
+    <PaletteIcon className="h-6 w-6" />
+    <span className="sr-only">chan woo&apos;s Portfolio</span>
+  </Link>
+  <nav className="ml-auto flex gap-4 sm:gap-6">
+    <Link className="text-sm font-medium hover:underline underline-offset-4" href="#">
+      About
+    </Link>
+    <Link className="text-sm font-medium hover:underline underline-offset-4" href="#">
+      Projects
+    </Link>
+    <Link className="text-sm font-medium hover:underline underline-offset-4" href="#">
+      Contact
+    </Link>
+  </nav>
+</header>
+
     {/*맨 위 머리부분*/}
     <section className="w-full py-12 md:py-24 lg:py-32 xl:py-48 bg-gray-900 text-white flex items-center justify-center">
   <div className="container px-4 md:px-6 text-center"> {/* text-center 클래스 추가 */}
