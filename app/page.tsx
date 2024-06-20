@@ -188,7 +188,7 @@ export default function Home() {
   </div>
 </section>
 
-{/* <section className="w-full py-12 md:py-24 lg:py-32 bg-gray-100 dark:bg-gray-800 flex items-center justify-center" id="contact">
+<section className="w-full py-12 md:py-24 lg:py-32 bg-gray-100 dark:bg-gray-800 flex items-center justify-center" id="contact">
   <div className="container px-4 md:px-6">
     <div className="grid gap-4 text-center">
       <div className="space-y-3">
@@ -209,7 +209,7 @@ export default function Home() {
       </div>
     </div>
   </div>
-</section> */}
+</section>
 
     <footer className="flex flex-col gap-2 sm:flex-row py-6 w-full shrink-0 items-center px-4 md:px-6 border-t bg-gray-900 text-white">
       <p className="text-xs">© 2024 Chan Woo Lee. All rights reserved.</p>
