@@ -51,7 +51,7 @@ export default function Home() {
     3D Grapic Designer
   </h1>
   <p className="max-w-[6000px] text-gray-300 md:text-xl dark:text-gray-400">
-  this is a portfolio of 3D game Grapic Background Designer Lee-Chan-Woo <br /> Who akes interesing background 3D Model. <br />
+  this is a portfolio of 3D game Grapic Background Designer Lee-Chan-Woo <br /> Who makes interesing background 3D Model. <br />
   </p>
 </div>
 
