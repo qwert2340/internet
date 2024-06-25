@@ -28,13 +28,13 @@ export default function Home() {
     <span className="sr-only">chan woo&apos;s Portfolio</span>
   </Link>
   <nav className="ml-auto flex gap-4 sm:gap-6">
-    <Link className="text-sm font-medium hover:underline underline-offset-4" href="#">
+    <Link className="text-sm font-medium hover:underline underline-offset-4" href="#about">
       About
     </Link>
-    <Link className="text-sm font-medium hover:underline underline-offset-4" href="#">
+    <Link className="text-sm font-medium hover:underline underline-offset-4" href="#projects">
       Projects
     </Link>
-    <Link className="text-sm font-medium hover:underline underline-offset-4" href="#">
+    <Link className="text-sm font-medium hover:underline underline-offset-4" href="#Contact">
       Contact
     </Link>
     
@@ -189,7 +189,8 @@ export default function Home() {
   </div>
 </section>
 
-<section className="w-full py-12 md:py-24 lg:py-32 bg-gray-100 dark:bg-gray-800 flex items-center justify-center" id="contact">
+<section className="w-full py-12 md:py-24 lg:py-32 bg-gray-100 dark:bg-gray-800 flex items-center justify-center" id="Contact">
+  
   <div className="container px-4 md:px-6">
     <div className="grid gap-4 text-center">
       <div className="space-y-3">
