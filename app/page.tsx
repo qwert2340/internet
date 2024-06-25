@@ -52,7 +52,7 @@ export default function Home() {
     3D Grapic Designer
   </h1>
   <p className="max-w-[6000px] text-gray-300 md:text-xl dark:text-gray-400">
-  This is a Portfolio of 3D game Background Grapic Designer. <br /> Chan Woo Lee <br /> Who makes interesing background 3D Model. <br />
+  This is a Portfolio of 3D game Background Grapic Designer, <br /> Chan Woo Lee <br /> Who makes interesing background 3D Model. <br />
   </p>
 </div>
 
@@ -92,7 +92,7 @@ export default function Home() {
         <div className="space-y-2">
           <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">about me</h2>
           <p className="text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
-            I&lsquo;m a 3D Game Grapic Background Designer and i makes Background of Game. <br /> like building and object or ETC...
+            I&lsquo;m a 3D Game background grapic designer and i makes Background of Game. <br /> like building and object or ETC...
             and also i can rigging and makes 3D animation too. <br /> if you want to work with me, Please Contact! <br />
           </p>
         </div>
@@ -217,10 +217,10 @@ export default function Home() {
       <p className="text-xs">© 2024 Chan Woo Lee. All rights reserved.</p>
       <nav className="sm:ml-auto flex gap-4 sm:gap-6">
         <Link className="text-xs hover:underline underline-offset-4" href="#">
-          Privacy
+          {/* Privacy */}
         </Link>
         <Link className="text-xs hover:underline underline-offset-4" href="#">
-          Terms
+          {/* Terms */}
         </Link>
       </nav>
     </footer>
@@ -231,15 +231,15 @@ export default function Home() {
     return (
       <svg id="main"
         {...props}
-        xmlns="http://www.w3.org/2000/svg"
-        width="24"
-        height="24"
-        viewBox="0 0 24 24"
-        fill="none"
-        stroke="currentColor"
-        strokeWidth="2"
-        strokeLinecap="round"
-        strokeLinejoin="round"
+        // xmlns="http://www.w3.org/2000/svg"
+        // width="24"
+        // height="24"
+        // viewBox="0 0 24 24"
+        // fill="none"
+        // stroke="currentColor"
+        // strokeWidth="2"
+        // strokeLinecap="round"
+        // strokeLinejoin="round"
       >
         <circle cx="13.5" cy="6.5" r=".5" fill="currentColor" />
         <circle cx="17.5" cy="10.5" r=".5" fill="currentColor" />
