@@ -144,7 +144,7 @@ export default function Home() {
           alt="Project 1"
           className="mx-auto aspect-video overflow-hidden rounded-t-xl object-cover object-center sm:w-full"
           height="310"
-          src="/3d.jpg"
+          src="/3d4.jpg"
           width="550"
         />
         <CardContent className="p-4">
