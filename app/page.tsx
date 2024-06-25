@@ -29,13 +29,13 @@ export default function Home() {
   </Link>
   <nav className="ml-auto flex gap-4 sm:gap-6">
     <Link className="text-sm font-medium hover:underline underline-offset-4" href="#about">
-      About
+      소개글
     </Link>
     <Link className="text-sm font-medium hover:underline underline-offset-4" href="#projects">
-      Projects
+      작업물
     </Link>
     <Link className="text-sm font-medium hover:underline underline-offset-4" href="#Contact">
-      Contact
+      연락처
     </Link>
     
   </nav>
@@ -49,10 +49,10 @@ export default function Home() {
         <div className="space-y-2">
         <div className="flex flex-col justify-center space-y-4 text-center">
   <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none">
-    3D Grapic Designer
+    3D 게임 그래픽 디자이너
   </h1>
   <p className="max-w-[6000px] text-gray-300 md:text-xl dark:text-gray-400">
-  This is a Portfolio of 3D game Background Grapic Designer, <br /> Chan Woo Lee <br /> Who makes interesing background 3D Model. <br />
+  3D 게임 그래픽 디자이너 이찬우의 포트폴리오 사이트 입니다.
   </p>
 </div>
 
@@ -92,13 +92,13 @@ export default function Home() {
         <div className="space-y-2">
           <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">about me</h2>
           <p className="text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
-            I&lsquo;m a 3D Game background grapic designer and i makes Background of Game. <br /> like building and object or ETC...
-            and also i can rigging and makes 3D animation too. <br /> if you want to work with me, Please Contact! <br />
+            저는 3D 게임 그래픽 디자이너 이찬우 입니다. <br />주로 건물이나 인게임 오브젝트 등을 주로 작업합니다.
+              <br /> 만약 저와 일을 하고 싶으시다면 아랫쪽에 메시지를 남겨주시기 바랍니다. <br />
           </p>
         </div>
         <div className="grid grid-cols-2 gap-4">
           <div className="space-y-1">
-            <h3 className="text-lg font-bold">3D tools</h3>
+            <h3 className="text-lg font-bold">3D 툴</h3>
             <ul className="space-y-1 text-sm text-gray-800 dark:text-gray-600"> 
               <li>3Ds Max</li>
               <li>ZBrush</li>
@@ -107,7 +107,7 @@ export default function Home() {
             </ul>
           </div>
           <div className="space-y-1">
-            <h3 className="text-lg font-bold">Other tools</h3>
+            <h3 className="text-lg font-bold">기타 툴</h3>
             <ul className="space-y-1 text-sm text-gray-500 dark:text-gray-400">
               <li>Aseprite</li>
               <li>Photoshop</li>
@@ -133,9 +133,9 @@ export default function Home() {
   <div className="container px-4 md:px-6">
     <div className="space-y-12 text-center">
       <div className="space-y-2">
-        <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">Featured Projects</h2>
+        <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">작업물</h2>
         <p className="max-w-[900px] mx-auto text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
-          Explore a selection of  Chan Woo Lee&apos;s most interesting 3D model of Background.
+          다음은 현재 제가 진행중인 작업물들의 사진입니다.
         </p>
       </div>
     </div>
@@ -149,7 +149,7 @@ export default function Home() {
           width="550"
         />
         <CardContent className="p-4">
-          <h3 className="text-lg font-bold">Render Shot 1</h3>
+          <h3 className="text-lg font-bold">랜더 샷 1</h3>
           <p className="text-sm text-gray-500 dark:text-gray-400">
             
           </p>
@@ -164,7 +164,7 @@ export default function Home() {
           width="550"
         />
         <CardContent className="p-4">
-          <h3 className="text-lg font-bold">Render Shot 2</h3>
+          <h3 className="text-lg font-bold">랜더 샷 2</h3>
           <p className="text-sm text-gray-500 dark:text-gray-400">
             
           </p>
@@ -179,7 +179,7 @@ export default function Home() {
           width="550"
         />
         <CardContent className="p-4">
-          <h3 className="text-lg font-bold">Render Shot 3</h3>
+          <h3 className="text-lg font-bold">랜더 샷 3</h3>
           <p className="text-sm text-gray-500 dark:text-gray-400">
             
           </p>
@@ -189,23 +189,24 @@ export default function Home() {
   </div>
 </section>
 
-<section className="w-full py-12 md:py-24 lg:py-32 bg-gray-100 dark:bg-gray-800 flex items-center justify-center" id="Contact">
+<section className="w-full py-12 md:py-24 lg:py-32 bg-gray-100 dark:bg-gray-800 flex items-center justify-center" id="Con">
   
   <div className="container px-4 md:px-6">
     <div className="grid gap-4 text-center">
       <div className="space-y-3">
-        <h2 className="text-3xl font-bold tracking-tighter md:text-4xl/tight">Get in Touch</h2>
+        <h2 className="text-3xl font-bold tracking-tighter md:text-4xl/tight">연락처</h2>
         <p className="mx-auto max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
-          Have a project in mind? Let&apos;s discuss how I can help bring your vision to life.
+         저의 작업물들이 마음에 드셧다면, 아래를 통하여 <br />연락주시면 감사하겠습니다.
         </p>
       </div>
       <div className="mx-auto w-full max-w-sm">
         <form className="flex flex-col space-y-2">
-          <Input className="max-w-lg" placeholder="Name" type="text" />
-          <Input className="max-w-lg" placeholder="Email" type="email" />
-          <Textarea className="max-w-lg" placeholder="Message" />
+          <Input className="max-w-lg" placeholder="이름" type="text" />
+          <Input className="max-w-lg" placeholder="이메일" type="email" />
+          <Textarea className="max-w-lg" placeholder="메시지" />
+          
           <Button className="w-full" type="submit">
-            Send Message
+            메시지 보내기 
           </Button>
         </form>
       </div>
