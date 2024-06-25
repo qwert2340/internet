@@ -90,7 +90,7 @@ export default function Home() {
     <div className="grid items-center justify-center gap-6 lg:grid-cols-[1fr_00px] lg:gap-12 xl:grid-cols-[1fr_550px]"> {/* justify-center 추가 */}
       <div className="flex flex-col justify-center space-y-4 text-center mx-auto max-w-[600px]"> {/* mx-auto와 max-w-[600px] 추가 */}
         <div className="space-y-2">
-          <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">about me</h2>
+          <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">저에 대하여</h2>
           <p className="text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
             저는 3D 게임 그래픽 디자이너 이찬우 입니다. <br />주로 건물이나 인게임 오브젝트 등을 주로 작업합니다.
               <br /> 만약 저와 일을 하고 싶으시다면 <br />아랫쪽에 메시지를 남겨주시기 바랍니다. <br />
